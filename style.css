@@ -1,5 +1,11 @@
 :root {
-    --base-text: 000000;
+    --text-color: #000000;
+    --background-color: #FFF8E0;
+    --logo-color: #FF8B00; 
+    --accent-color: #71D831;
+    --accent-text: #FF6A00;
+    --arrow-color: #FFC723;
+    --dark-dot-color: #FF9C00;
 }
 
 
@@ -28,3 +34,8 @@ img{
     margin: 0%;
     padding: 0%;
 }
+
+
+/* font-family: "Lato", sans-serif;
+font-family: "Montserrat", sans-serif; */
+
