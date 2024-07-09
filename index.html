@@ -12,23 +12,25 @@
 </head>
 <body>
     <header class="header">
+
+        <!-- header -->
         <div class="container">
             <img src="./images/logo.png" alt="logo ABC" class="logo">
             <ul class="nav-list">
-                <li>
-                    <p class="list-item">Результати</p>
+                <li class="header-item">
+                    <p class="header-desc">Результати</p>
                 </li>
-                <li>
-                    <p class="list-item">Вчителі</p>
+                <li class="header-item">
+                    <p class="header-desc">Вчителі</p>
                 </li>
-                <li>
-                    <p class="list-item">Відгуки</p>
+                <li class="header-item">
+                    <p class="header-desc">Відгуки</p>
                 </li>
-                <li>
-                    <p class="list-item">Тарифи</p>
+                <li class="header-item">
+                    <p class="header-desc">Тарифи</p>
                 </li>
-                <li>
-                    <p class="list-item">Питання</p>
+                <li class="header-item">
+                    <p class="header-desc">Питання</p>
                 </li>
             </ul>
             <button class="header-button">Увійти</button>
@@ -36,119 +38,142 @@
     </header>
 
     <main>
-        <section>
-            <img src="./images/student.jpg" alt="photo of student">
-            <h1>Школа англійської мови <span>ABC</span></h1>
-            <h3>Перший урок <span>безкоштовно</span></h3>
-            <p>Працюємо з дорослими та дітьми від 5 років
-                Інтерактивні заняття по фільмам та серіалам</p>
-            <button>Спробувати</button>
+
+        <!-- секція герой -->
+        <section class="hero">
+            <div class="container"></div>
+                <img src="./images/student.jpg" alt="photo of student" class="hero-img">
+                <h1 class="hero-title">Школа англійської мови <span class="title-accent">ABC</span></h1>
+                <h3 class="hero-desc">Перший урок <span class="desc-accent">безкоштовно</span></h3>
+                <p class="hero-text">Працюємо з дорослими та дітьми від 5 років
+                    Інтерактивні заняття по фільмам та серіалам</p>
+                <button class="hero-button">Спробувати</button>
+            </div>
         </section>
-        <section>
-            <img src="./images/results.jpg" alt="photo of results">
-            <h2>Результати:</h2>
-            <ul>
-                <li>
-                    <p>7000+ учнів</p>
-                </li>
-                <li>
-                    <p>150+ викладачів</p>
-                </li>
-                <li>
-                    <p>1000+ випускників</p>
-                </li>
-                <li>
-                    <p>25+ країн</p>
-                </li>
-            </ul>
+
+        <!-- секція результати -->
+        <section class="results">
+            <div class="container">
+                <img src="./images/results.jpg" alt="photo of results" class="results-img">
+                <h2 class="results-title">Результати:</h2>
+                <ul class="results-list">
+                    <li>
+                        <p class="results-item">7000+ учнів</p>
+                    </li>
+                    <li>
+                        <p class="results-item">150+ викладачів</p>
+                    </li>
+                    <li>
+                        <p class="results-item">1000+ випускників</p>
+                    </li>
+                    <li>
+                        <p class="results-item">25+ країн</p>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <h1>Викладачі</h1>
-            <img src="./images/arrow_left.png" alt="arrow left">
-            <img src="./images/teacher.jpg" alt="photo of teacher">
-            <h2>Вікторія</h2>
-            <p>Hello guys. Мене звати Вікторія, мені 30 років. Здобула освіту в університеті імені Каразіна, вивчилась на філолога англійської, іспанської, італійської та німецької мов. Досвід роботи вчителем 6 років, а досвід роботи репетитором 10+ років. Наразі викладаю для учнів від 7-68 років, обовʼязково знайду підхід до кожного. На моїх уроках ви не знайдете нудної граматики та зазубрювання слів.
-                Чекаю Вас на своїх заняттях!</p>
-            <img src="./images/arrow_right.png" alt="arrow right">
-            <img src="./images/dots.png" alt="dots">
+
+        <!-- секція викладачі -->
+        <section class="teacher">
+            <div class="container">
+                <h1 class="teacher-title">Викладачі</h1>
+                <img src="./images/arrow_left.png" alt="arrow left" class="arrow-left">
+                <img src="./images/teacher.jpg" alt="photo of teacher" class="teacher-img">
+                <h2 class="teacher-name">Вікторія</h2>
+                <p class="teacher-desc">Hello guys. Мене звати Вікторія, мені 30 років. Здобула освіту в університеті імені Каразіна, вивчилась на філолога англійської, іспанської, італійської та німецької мов. Досвід роботи вчителем 6 років, а досвід роботи репетитором 10+ років. Наразі викладаю для учнів від 7-68 років, обовʼязково знайду підхід до кожного. На моїх уроках ви не знайдете нудної граматики та зазубрювання слів.
+                    Чекаю Вас на своїх заняттях!</p>
+                <img src="./images/arrow_right.png" alt="arrow right" class="arrow-right">
+                <img src="./images/dots.png" alt="dots" class="dots">
+            </div>
         </section>
-        <section>
-            <h1>Відгуки</h1>
-            <img src="./images/arrow_left.png" alt="arrow left">
-            <ul>
-                <li>
-                    <img src="./images/student1.png" alt="photo of female student">
-                    <h2>Дарина</h2>
-                    <p>Навчаюсь у цій школі менше року, але вже бачу колосальний  результат. З 0 до А2 з викладачкою Софією, ні разу не пожалкувала про свій вибір, який змінив життя. Заняття проходять легко та без стресу. Усім рекомендую!</p>
-                </li>
-                <li>
-                    <img src="./images/student2.png" alt="photo of male student">
-                    <h2>Віктор</h2>
-                    <p>Прийняв рішення про вивчення англійської близько двох років тому, друзі порекомендували саме цю школу. За моїми характеристиками було обрано вчителя Юлію, дуже подобається, що усі уроки підлаштовуються під мене та мої інтереси</p>
-                </li>
-            </ul>
-            <img src="./images/arrow_right.png" alt="arrow right">
-            <img src="./images/dots.png" alt="dots">
+
+        <!-- секція відгуки -->
+        <section class="review">
+            <div  class="container">
+                <h1 class="reviewi-title">Відгуки</h1>
+                <img src="./images/arrow_left.png" alt="arrow left" class="review-img">
+                <ul class="review-list">
+                    <li class="review-item">
+                        <img src="./images/student1.png" alt="photo of female student" class="review-img">
+                        <h2 review-name>Дарина</h2>
+                        <p class="review-desc">Навчаюсь у цій школі менше року, але вже бачу колосальний  результат. З 0 до А2 з викладачкою Софією, ні разу не пожалкувала про свій вибір, який змінив життя. Заняття проходять легко та без стресу. Усім рекомендую!</p>
+                    </li>
+                    <li class="review-item">
+                        <img src="./images/student2.png" alt="photo of male student" class="review-img">
+                        <h2 review-name>Віктор</h2>
+                        <p class="review-desc">Прийняв рішення про вивчення англійської близько двох років тому, друзі порекомендували саме цю школу. За моїми характеристиками було обрано вчителя Юлію, дуже подобається, що усі уроки підлаштовуються під мене та мої інтереси</p>
+                    </li>
+                </ul>
+                <img src="./images/arrow_right.png" alt="arrow right">
+                <img src="./images/dots.png" alt="dots">
+            </div>
         </section>
-        <section>
-            <h1>Типи навчання</h1>
-            <ul>
-                <li>
-                    <img src="./images/types_orange.png" alt="orange type of studying">
-                    <p>Помаранчевий</p>
-                    <p>Два групові заняття на тиждень, консультація з викладачем один раз на місяць</p>
-                    <p>1200 грн/міс</p>
-                </li>
-                <li>
-                    <img src="./images/types_yellow.png" alt="yellow type of studying">
-                    <p>Жовтий</p>
-                    <p>Одне групове заняття та одне індивідуальне заняття на тиждень, speaking clubs</p>
-                    <p>1800 грн/міс</p>
-                </li>
-                <li>
-                    <img src="./images/types_green.png" alt="green type of studying">
-                    <p>Зелений</p>
-                    <p>Два індивідуальних заняття на тиждень та speaking clubs</p>
-                    <p>2200 грн/міс</p>
-                </li>
-                <li>
-                    <img src="./images/types_blue.png" alt="blue type of studying">
-                    <p>Синій</p>
-                    <p>Три індивідуальних занятта на тиждень та speaking clubs</p>
-                    <p>3000 грн/міс</p>
-                </li>
-            </ul>
+
+        <!-- секція типи навчання -->
+        <section class="types">
+            <div class="container">
+                <h1 class="types-title">Типи навчання</h1>
+                <ul class="types-list">
+                    <li class="types-item">
+                        <img src="./images/types_orange.png" alt="orange type of studying" class="">
+                        <p class="types-name">Помаранчевий</p>
+                        <p class="types-desc">Два групові заняття на тиждень, консультація з викладачем один раз на місяць</p>
+                        <p class="types-price">1200 грн/міс</p>
+                    </li>
+                    <li class="types-item">
+                        <img src="./images/types_yellow.png" alt="yellow type of studying" class="">
+                        <p class="types-name">Жовтий</p>
+                        <p class="types-desc">Одне групове заняття та одне індивідуальне заняття на тиждень, speaking clubs</p>
+                        <p class="types-price">1800 грн/міс</p>
+                    </li>
+                    <li class="types-item">
+                        <img src="./images/types_green.png" alt="green type of studying" class="">
+                        <p class="types-name">Зелений</p>
+                        <p class="types-desc">Два індивідуальних заняття на тиждень та speaking clubs</p>
+                        <p class="types-price">2200 грн/міс</p>
+                    </li>
+                    <li class="types-item">
+                        <img src="./images/types_blue.png" alt="blue type of studying" class="">
+                        <p class="types-name">Синій</p>
+                        <p class="types-desc">Три індивідуальних занятта на тиждень та speaking clubs</p>
+                        <p class="types-price">3000 грн/міс</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <img src="./images/logo.png" alt="">
-        <ul>
-            <li>
-                <p>Результати</p>
-            </li>
-            <li>
-                <p>Вчителі</p>
-            </li>
-            <li>
-                <p>Відгуки</p>
-            </li>
-            <li>
-                <p>Тарифи</p>
-            </li>
-            <li>
-                <p>Питання</p>
-            </li>
-        </ul>
-        <address>
-            <a href="tel:+380973454525">0 (97) 345 45 25</a>
-            <p>8:00-19:00</p>
-            <a href="mailto:englishschool@gmail.com">englishschool@gmail.com</a>
-        </address>
-        <ul>
-            <li><img src="./images/facebook_button.png" alt="button of facebook"></li>
-            <li><img src="./images/whatsup_button.png" alt="button of whatsup"></li>
-        </ul>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <img src="./images/logo.png" alt="logo ABC" class="logo">
+            <ul class="">
+                <li class="footer-item">
+                    <p class="footer-desc">Результати</p>
+                </li>
+                <li class="footer-item">
+                    <p class="footer-desc">Вчителі</p>
+                </li>
+                <li class="footer-item">
+                    <p class="footer-desc">Відгуки</p>
+                </li>
+                <li class="footer-item">
+                    <p class="footer-desc">Тарифи</p>
+                </li>
+                <li class="footer-item">
+                    <p class="footer-desc">Питання</p>
+                </li>
+            </ul>
+            <address class="address">
+                <a href="tel:+380973454525" class="address-phone">0 (97) 345 45 25</a>
+                <p class="address-desc">8:00-19:00</p>
+                <a href="mailto:englishschool@gmail.com" class="adress-link">englishschool@gmail.com</a>
+            </address>
+            <ul class="footer-list">
+                <li class="footer-item"><img src="./images/facebook_button.png" alt="button of facebook" class="footer-img"></li>
+                <li class="footer-item"><img src="./images/whatsup_button.png" alt="button of whatsup" class="footer-img"></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
